@@ -27,7 +27,7 @@ class Camera:
 
 
 # Load RKNN model
-model = YOLO("./yolo26n_rknn_model")
+model = YOLO("./yolo26m_rknn_model")
 
 # Open webcam with threaded capture
 cap = Camera(0)
@@ -44,7 +44,10 @@ def mouse_callback(event, x, y, flags, param):
                 if box.id is None:
                     continue
                 track_id = int(box.id.item())
-                x1, y1, x2, y2 = map(int, box.xyxy[0])
+                coords = box.xyxy[0]
+                if any(c != c for c in coords):
+                    continue
+                x1, y1, x2, y2 = map(int, coords)
                 if x1 <= x <= x2 and y1 <= y <= y2:
                     selected_id = track_id
                     print(f"Selected ID: {selected_id}")
@@ -80,7 +83,10 @@ while True:
             track_id = int(box.id.item())
             cls = int(box.cls.item())
             conf = float(box.conf.item())
-            x1, y1, x2, y2 = map(int, box.xyxy[0])
+            coords = box.xyxy[0]
+            if any(c != c for c in coords):  # skip NaN values
+                continue
+            x1, y1, x2, y2 = map(int, coords)
 
             # Highlight selected object
             if track_id == selected_id:
