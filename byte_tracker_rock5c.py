@@ -1,11 +1,36 @@
+import threading
+import time
+
 import cv2
 from ultralytics import YOLO
+
+
+class Camera:
+    def __init__(self, src=0):
+        self.cap = cv2.VideoCapture(src)
+        self.ret, self.frame = self.cap.read()
+        self.running = True
+        thread = threading.Thread(target=self.update)
+        thread.daemon = True
+        thread.start()
+
+    def update(self):
+        while self.running:
+            self.ret, self.frame = self.cap.read()
+
+    def read(self):
+        return self.ret, self.frame
+
+    def release(self):
+        self.running = False
+        self.cap.release()
+
 
 # Load RKNN model
 model = YOLO("./yolo26n_rknn_model")
 
-# Open webcam
-cap = cv2.VideoCapture(0)
+# Open webcam with threaded capture
+cap = Camera(0)
 
 selected_id = None  # Store selected track ID
 
@@ -27,6 +52,7 @@ def mouse_callback(event, x, y, flags, param):
 cv2.namedWindow("YOLO ByteTrack")
 cv2.setMouseCallback("YOLO ByteTrack", mouse_callback)
 
+prev_time = time.time()
 while True:
     ret, frame = cap.read()
     if not ret:
@@ -74,6 +100,13 @@ while True:
                 color,
                 2
             )
+
+    # FPS counter
+    curr_time = time.time()
+    fps = 1.0 / (curr_time - prev_time)
+    prev_time = curr_time
+    cv2.putText(annotated_frame, f"FPS: {fps:.1f}", (10, 30),
+                cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow("YOLO ByteTrack", annotated_frame)
 
