@@ -1,0 +1,11 @@
+# Virtual environment
+vision_venv/
+
+# YOLO model weights and exports
+*.pt
+*.onnx
+*_rknn_model/
+
+# Python
+__pycache__/
+*.pyc

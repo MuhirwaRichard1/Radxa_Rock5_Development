@@ -1,0 +1,295 @@
+action-msgs==1.2.2
+action-tutorials-interfaces==0.20.8
+# Editable install with no version control (action-tutorials-py==0.20.8)
+-e /home/radxa/ros2_humble/build/action_tutorials_py
+actionlib-msgs==4.9.0
+# Editable install with no version control (ament-clang-format==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_clang_format
+# Editable install with no version control (ament-clang-tidy==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_clang_tidy
+ament-cmake-google-benchmark==1.3.13
+ament-cmake-test==1.3.13
+# Editable install with no version control (ament-copyright==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_copyright
+# Editable install with no version control (ament-cppcheck==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_cppcheck
+# Editable install with no version control (ament-cpplint==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_cpplint
+# Editable install with no version control (ament-flake8==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_flake8
+# Editable install with no version control (ament-index-python==1.4.1)
+-e /home/radxa/ros2_humble/build/ament_index_python
+# Editable install with no version control (ament-lint==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_lint
+# Editable install with no version control (ament-lint-cmake==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_lint_cmake
+# Editable install with no version control (ament-mypy==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_mypy
+# Editable install with no version control (ament-package==0.14.1)
+-e /home/radxa/ros2_humble/build/ament_package
+# Editable install with no version control (ament-pclint==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_pclint
+# Editable install with no version control (ament-pep257==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_pep257
+# Editable install with no version control (ament-pycodestyle==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_pycodestyle
+# Editable install with no version control (ament-pyflakes==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_pyflakes
+# Editable install with no version control (ament-uncrustify==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_uncrustify
+# Editable install with no version control (ament-xmllint==0.12.14)
+-e /home/radxa/ros2_humble/build/ament_xmllint
+builtin-interfaces==1.2.2
+# Editable install with no version control (camera-info-manager-py==3.1.12)
+-e /home/radxa/ros2_humble/build/camera_info_manager_py
+certifi==2026.1.4
+charset-normalizer==3.4.4
+colorama==0.4.6
+composition-interfaces==1.2.2
+contourpy==1.3.3
+cycler==0.12.1
+# Editable install with no version control (demo-nodes-py==0.20.8)
+-e /home/radxa/ros2_humble/build/demo_nodes_py
+diagnostic-msgs==4.9.0
+# Editable install with no version control (domain-coordinator==0.10.0)
+-e /home/radxa/ros2_humble/build/domain_coordinator
+example-interfaces==0.9.3
+# Editable install with no version control (examples-rclpy-executors==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_executors
+# Editable install with no version control (examples-rclpy-guard-conditions==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_guard_conditions
+# Editable install with no version control (examples-rclpy-minimal-action-client==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_minimal_action_client
+# Editable install with no version control (examples-rclpy-minimal-action-server==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_minimal_action_server
+# Editable install with no version control (examples-rclpy-minimal-client==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_minimal_client
+# Editable install with no version control (examples-rclpy-minimal-publisher==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_minimal_publisher
+# Editable install with no version control (examples-rclpy-minimal-service==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_minimal_service
+# Editable install with no version control (examples-rclpy-minimal-subscriber==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_minimal_subscriber
+# Editable install with no version control (examples-rclpy-pointcloud-publisher==0.15.5)
+-e /home/radxa/ros2_humble/build/examples_rclpy_pointcloud_publisher
+# Editable install with no version control (examples-tf2-py==0.25.18)
+-e /home/radxa/ros2_humble/build/examples_tf2_py
+fast-histogram==0.14
+filelock==3.20.3
+flatbuffers==25.12.19
+fonttools==4.61.1
+fsspec==2026.2.0
+geometry-msgs==4.9.0
+idna==3.11
+interactive-markers==2.3.3
+Jinja2==3.1.6
+kiwisolver==1.4.9
+lap==0.5.12
+laser-geometry==2.4.1
+# Editable install with no version control (launch==1.0.14)
+-e /home/radxa/ros2_humble/build/launch
+# Editable install with no version control (launch-pytest==1.0.14)
+-e /home/radxa/ros2_humble/build/launch_pytest
+# Editable install with no version control (launch-ros==0.19.13)
+-e /home/radxa/ros2_humble/build/launch_ros
+# Editable install with no version control (launch-testing==1.0.14)
+-e /home/radxa/ros2_humble/build/launch_testing
+# Editable install with no version control (launch-testing-examples==0.15.5)
+-e /home/radxa/ros2_humble/build/launch_testing_examples
+# Editable install with no version control (launch-testing-ros==0.19.13)
+-e /home/radxa/ros2_humble/build/launch_testing_ros
+# Editable install with no version control (launch-xml==1.0.14)
+-e /home/radxa/ros2_humble/build/launch_xml
+# Editable install with no version control (launch-yaml==1.0.14)
+-e /home/radxa/ros2_humble/build/launch_yaml
+lifecycle-msgs==1.2.2
+# Editable install with no version control (lifecycle-py==0.20.8)
+-e /home/radxa/ros2_humble/build/lifecycle_py
+logging-demo==0.20.8
+map-msgs==2.1.0
+MarkupSafe==3.0.3
+matplotlib==3.10.8
+message-filters==4.3.12
+ml_dtypes==0.5.4
+mpmath==1.3.0
+nav-msgs==4.9.0
+networkx==3.6.1
+numpy==1.26.4
+onnx==1.16.1
+onnxoptimizer==0.3.8
+onnxruntime==1.24.1
+onnxslim==0.1.85
+opencv-contrib-python==4.13.0.92
+opencv-python==4.11.0.86
+opencv-python-headless==4.13.0.92
+# Editable install with no version control (osrf-pycommon==2.1.7)
+-e /home/radxa/ros2_humble/build/osrf_pycommon
+packaging==26.0
+pendulum-msgs==0.20.8
+pillow==12.1.1
+polars==1.38.1
+polars-runtime-32==1.38.1
+protobuf==3.20.3
+psutil==7.2.2
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+python-qt-binding==1.1.3
+PyYAML==6.0.3
+qt-dotgraph==2.2.4
+qt-gui==2.2.4
+qt-gui-cpp==2.2.4
+qt-gui-py-common==2.2.4
+# Editable install with no version control (quality-of-service-demo-py==0.20.8)
+-e /home/radxa/ros2_humble/build/quality_of_service_demo_py
+rcl-interfaces==1.2.2
+rclpy==3.3.19
+rcutils==5.1.8
+requests==2.32.5
+resource-retriever==3.1.3
+rknn-toolkit-lite2==2.3.2
+rknn-toolkit2==2.3.2
+rmw-dds-common==1.6.0
+# Editable install with no version control (ros2action==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2action
+# Editable install with no version control (ros2bag==0.15.15)
+-e /home/radxa/ros2_humble/build/ros2bag
+# Editable install with no version control (ros2cli==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2cli
+ros2cli-test-interfaces==0.18.16
+# Editable install with no version control (ros2component==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2component
+# Editable install with no version control (ros2doctor==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2doctor
+# Editable install with no version control (ros2interface==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2interface
+# Editable install with no version control (ros2launch==0.19.13)
+-e /home/radxa/ros2_humble/build/ros2launch
+# Editable install with no version control (ros2lifecycle==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2lifecycle
+# Editable install with no version control (ros2multicast==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2multicast
+# Editable install with no version control (ros2node==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2node
+# Editable install with no version control (ros2param==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2param
+# Editable install with no version control (ros2pkg==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2pkg
+# Editable install with no version control (ros2plugin==5.1.3)
+-e /home/radxa/ros2_humble/build/ros2plugin
+# Editable install with no version control (ros2run==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2run
+# Editable install with no version control (ros2service==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2service
+# Editable install with no version control (ros2test==0.4.0)
+-e /home/radxa/ros2_humble/build/ros2test
+# Editable install with no version control (ros2topic==0.18.16)
+-e /home/radxa/ros2_humble/build/ros2topic
+# Editable install with no version control (ros2trace==4.1.1)
+-e /home/radxa/ros2_humble/build/ros2trace
+rosbag2-interfaces==0.15.15
+rosbag2-py==0.15.15
+rosbag2-storage-mcap-testdata==0.15.15
+rosgraph-msgs==1.2.2
+rosidl-adapter==3.1.8
+# Editable install with no version control (rosidl-cli==3.1.8)
+-e /home/radxa/ros2_humble/build/rosidl_cli
+rosidl-cmake==3.1.8
+rosidl-generator-c==3.1.8
+rosidl-generator-cpp==3.1.8
+rosidl-generator-dds-idl==0.8.1
+rosidl-generator-py==0.14.6
+rosidl-parser==3.1.8
+# Editable install with no version control (rosidl-runtime-py==0.9.3)
+-e /home/radxa/ros2_humble/build/rosidl_runtime_py
+rosidl-typesupport-c==2.0.2
+rosidl-typesupport-cpp==2.0.2
+rosidl-typesupport-fastrtps-c==2.2.4
+rosidl-typesupport-fastrtps-cpp==2.2.4
+rosidl-typesupport-introspection-c==3.1.8
+rosidl-typesupport-introspection-cpp==3.1.8
+# Editable install with no version control (rpyutils==0.2.2)
+-e /home/radxa/ros2_humble/build/rpyutils
+# Editable install with no version control (rqt==1.1.9)
+-e /home/radxa/ros2_humble/build/rqt
+# Editable install with no version control (rqt-action==2.0.1)
+-e /home/radxa/ros2_humble/build/rqt_action/src
+# Editable install with no version control (rqt-bag==1.1.5)
+-e /home/radxa/ros2_humble/build/rqt_bag/src
+# Editable install with no version control (rqt-bag-plugins==1.1.5)
+-e /home/radxa/ros2_humble/build/rqt_bag_plugins/src
+# Editable install with no version control (rqt-console==2.0.3)
+-e /home/radxa/ros2_humble/build/rqt_console/src
+# Editable install with no version control (rqt-graph==1.3.1)
+-e /home/radxa/ros2_humble/build/rqt_graph/src
+# Editable install with no version control (rqt-gui==1.1.9)
+-e /home/radxa/ros2_humble/build/rqt_gui/src
+# Editable install with no version control (rqt-gui-py==1.1.9)
+-e /home/radxa/ros2_humble/build/rqt_gui_py/src
+# Editable install with no version control (rqt-msg==1.2.0)
+-e /home/radxa/ros2_humble/build/rqt_msg/src
+# Editable install with no version control (rqt-plot==1.1.5)
+-e /home/radxa/ros2_humble/build/rqt_plot/src
+# Editable install with no version control (rqt-publisher==1.5.0)
+-e /home/radxa/ros2_humble/build/rqt_publisher/src
+rqt-py-common==1.1.9
+# Editable install with no version control (rqt-py-console==1.0.2)
+-e /home/radxa/ros2_humble/build/rqt_py_console/src
+# Editable install with no version control (rqt-reconfigure==1.1.2)
+-e /home/radxa/ros2_humble/build/rqt_reconfigure/src
+# Editable install with no version control (rqt-service-caller==1.0.5)
+-e /home/radxa/ros2_humble/build/rqt_service_caller/src
+# Editable install with no version control (rqt-shell==1.0.2)
+-e /home/radxa/ros2_humble/build/rqt_shell/src
+# Editable install with no version control (rqt-srv==1.0.3)
+-e /home/radxa/ros2_humble/build/rqt_srv/src
+# Editable install with no version control (rqt-topic==1.5.0)
+-e /home/radxa/ros2_humble/build/rqt_topic/src
+ruamel.yaml==0.19.1
+scipy==1.17.0
+sensor-msgs==4.9.0
+# Editable install with no version control (sensor-msgs-py==4.9.0)
+-e /home/radxa/ros2_humble/build/sensor_msgs_py
+shape-msgs==4.9.0
+six==1.17.0
+# Editable install with no version control (sros2==0.10.8)
+-e /home/radxa/ros2_humble/build/sros2
+statistics-msgs==1.2.2
+std-msgs==4.9.0
+std-srvs==4.9.0
+stereo-msgs==4.9.0
+sympy==1.14.0
+# Editable install with no version control (test-launch-ros==0.19.13)
+-e /home/radxa/ros2_humble/build/test_launch_ros
+test-msgs==1.2.2
+# Editable install with no version control (test-tracetools-launch==4.1.1)
+-e /home/radxa/ros2_humble/build/test_tracetools_launch
+tf2-geometry-msgs==0.25.18
+tf2-kdl==0.25.18
+tf2-msgs==0.25.18
+tf2-py==0.25.18
+# Editable install with no version control (tf2-ros-py==0.25.18)
+-e /home/radxa/ros2_humble/build/tf2_ros_py
+tf2-sensor-msgs==0.25.18
+# Editable install with no version control (tf2-tools==0.25.18)
+-e /home/radxa/ros2_humble/build/tf2_tools
+# Editable install with no version control (topic-monitor==0.20.8)
+-e /home/radxa/ros2_humble/build/topic_monitor
+torch==2.2.0
+torchvision==0.17.0
+tqdm==4.67.3
+# Editable install with no version control (tracetools-launch==4.1.1)
+-e /home/radxa/ros2_humble/build/tracetools_launch
+# Editable install with no version control (tracetools-read==4.1.1)
+-e /home/radxa/ros2_humble/build/tracetools_read
+# Editable install with no version control (tracetools-test==4.1.1)
+-e /home/radxa/ros2_humble/build/tracetools_test
+# Editable install with no version control (tracetools-trace==4.1.1)
+-e /home/radxa/ros2_humble/build/tracetools_trace
+trajectory-msgs==4.9.0
+turtlesim==1.4.3
+typing_extensions==4.15.0
+ultralytics==8.4.14
+ultralytics-thop==2.0.18
+unique-identifier-msgs==2.2.1
+urllib3==2.6.3
+visualization-msgs==4.9.0
